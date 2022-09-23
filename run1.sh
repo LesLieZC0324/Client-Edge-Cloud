@@ -1,0 +1,5 @@
+#!/bin/bash
+python main.py --dataset=fmnist --model=fmnistCNN --num_clients=100 --num_edges=2 --frac=0.5 --num_local_update=1 --num_edge_aggregation=1 --epochs=2000 --batch_size=20 --percentage=0.0 --iid=1 --lr=0.05 --momentum=0.9 --gpu=0 --compressed=2 --prop=0.2 --model_set=2 --acc_target=0.88
+python main.py --dataset=fmnist --model=fmnistCNN --num_clients=100 --num_edges=2 --frac=0.5 --num_local_update=1 --num_edge_aggregation=1 --epochs=2000 --batch_size=20 --percentage=0.0 --iid=1 --lr=0.05 --momentum=0.9 --gpu=0 --compressed=2 --prop=0.1 --model_set=2 --acc_target=0.88
+python main.py --dataset=fmnist --model=fmnistCNN --num_clients=100 --num_edges=2 --frac=0.5 --num_local_update=1 --num_edge_aggregation=1 --epochs=2000 --batch_size=20 --percentage=0.0 --iid=1 --lr=0.05 --momentum=0.9 --gpu=0 --compressed=2 --prop=0.05 --model_set=2 --acc_target=0.88
+python main.py --dataset=fmnist --model=fmnistCNN --num_clients=100 --num_edges=2 --frac=0.5 --num_local_update=1 --num_edge_aggregation=1 --epochs=2000 --batch_size=20 --percentage=0.0 --iid=1 --lr=0.05 --momentum=0.9 --gpu=0 --compressed=2 --prop=0.01 --model_set=2 --acc_target=0.88
